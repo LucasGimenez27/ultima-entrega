@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: #333;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+    .nav-links.active {
+      display: flex;
+    }
+    .nav-links a {
+      padding: 10px;
+      text-align: center;
+      display: block;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .texto {
+      top: 15%;
+      font-size: 20px;
+      padding: 1rem;
+      margin-top: 130px;
+    }
+    .texto h1 {
+      font-size: 16px;
+    }
+    .texto p {
+      font-size: 16px;
+    }
+    .card h2 {
+      font-size: 1.25rem;
+    }
+    .card p {
+      font-size: 1rem;
+    }
+    button {
+      font-size: 1.25rem;
+      padding: 10px 15px;
+    }
+    #cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #cards-container .card {
+      width: 90%;
+    }
+    .presupuesto h2 {
+      font-size: 1.5rem;
+    }
+    #galpones-card {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px){
+    .texto {
+      top: 15%;
+      font-size: 15px;
+      padding: 10px;
+      margin-top: 70px;
+      max-width: 280%;
+      width: 300px;
+    }
+    .texto {
+      width: 90%;
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+    #cards-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      width: 100%;
+    }
+    #cards-container {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .card {
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 1rem;
+    }
+    .texto button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+    .texto h1 {
+      font-size: 14px;
+    }
+    .texto p {
+      font-size: 13px;
+    }
+    button {
+      font-size: 8px;
+      padding: 10px 15px;
+      margin-top: -10px;
+    }
+    .card {
+      width: 100%;      
+      box-sizing: border-box; 
+      padding: 1rem;
+  
+    .card h2 {
+      font-size: 19px;
+      width: 100px;
+    }
+    .card p {
+      font-size: 16px;
+      width: 100px;
+    }
+  }
+  
+  }
+  @media (min-width: 768px) {
+    .cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }

@@ -1,0 +1,468 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 35%;
+}
+
+.lista li a {
+  color: #373838;
+  font-size: 150%;
+} /* links */
+#pagina-2 {
+  background-color: rgba(254, 156, 37, 0.849);
+}
+
+/* Estilos para la navbar responsive */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 15px 20px;
+  color: white;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.encabezado nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.encabezado a {
+  color: #373838;
+}
+
+#barra-nav {
+  background-color: #373838;
+}
+
+#barra-nav div h1 {
+  color: rgba(252, 139, 2, 0.91);
+}
+
+#barra-nav div a {
+  color: rgba(254, 156, 37, 0.9098039216);
+}
+
+
+.imagen-con-texto {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.imagen-con-texto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto {
+  position: absolute;
+  top: 40%; /* Antes estaba en 50%, ahora sube */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%; /* Para que el texto no sea demasiado ancho */
+}
+
+.texto h1 {
+  font-size: 3vw;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  font-size: 1.2vw;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 480px){
+  .texto{
+    top: 30px;
+  }
+  .texto p{
+    font-size: 11px;
+  }
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.9098039216);
+  color: #373838;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  padding: 12px 18px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  background: #ff6600;
+  color: white;
+  margin-top: 10px; /* Más separación entre texto y botón */
+}
+
+button:hover {
+  background: #cc5500;
+}
+
+button {
+  color: white;
+  background-color: rgb(255, 157, 0);
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgb(200, 198, 198);
+  cursor: pointer;
+}
+
+#button-pag2 {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 45px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #373838;
+}
+
+footer div {
+  background-color: #333;
+}
+
+.presupuesto h2 {
+  color: white;
+}
+
+.presupuesto {
+  margin: 10px;
+  text-align: center;
+  background-color: #373838;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+}
+
+main section div p {
+  font-size: 90%;
+  font-style: normal;
+}
+
+#cards-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#cards-container .card {
+  width: 70%;
+  background: #f4f4f4;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pagina-4 .container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pagina-4 h2 {
+  text-align: center;
+  color: #333;
+}
+
+#pagina-4 label {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+}
+
+#pagina-4 input[type=text],
+#pagina-4 input[type=tel],
+#pagina-4 input[type=email],
+#pagina-4 textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#pagina-4 input[type=text]:focus,
+#pagina-4 input[type=tel]:focus,
+#pagina-4 input[type=email]:focus,
+#pagina-4 textarea:focus {
+  border-color: #f58133;
+  outline: none;
+}
+
+#pagina-4 textarea {
+  resize: vertical;
+}
+
+#pagina-4 input[type=submit] {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#pagina-4 input[type=submit]:hover {
+  background-color: #5a4ae3;
+}
+
+#pagina-4 .form-group {
+  margin-bottom: 15px;
+}
+
+#pagina-4 .form-group input,
+#pagina-4 .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+#pagina-4 .form-group textarea {
+  height: 150px;
+  resize: none;
+}
+
+#pagina-4 body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+}
+
+#pagina-4 header {
+  background-color: rgba(255, 255, 255, 0.9098039216);
+  color: #373838;
+}
+
+#pagina-4 header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#pagina-4 header div a {
+  color: #d7f8f8;
+}
+
+#galpones-card .card {
+  margin: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.datos {
+  font-style: normal;
+  size: 50%;
+  font-size: 115%;
+  text-align: center;
+  margin: 10px;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .nav-links a {
+    padding: 10px;
+    text-align: center;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .texto {
+    top: 15%;
+    font-size: 20px;
+    padding: 1rem;
+    margin-top: 130px;
+  }
+  .texto h1 {
+    font-size: 16px;
+  }
+  .texto p {
+    font-size: 16px;
+  }
+  .card h2 {
+    font-size: 1.25rem;
+  }
+  .card p {
+    font-size: 1rem;
+  }
+  button {
+    font-size: 1.25rem;
+    padding: 10px 15px;
+  }
+  #cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #cards-container .card {
+    width: 90%;
+  }
+  .presupuesto h2 {
+    font-size: 1.5rem;
+  }
+  #galpones-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .texto {
+    top: 15%;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 70px;
+    max-width: 280%;
+    width: 300px;
+  }
+  .texto {
+    width: 90%;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+  #cards-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+  }
+  #cards-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  .texto button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  .texto h1 {
+    font-size: 14px;
+  }
+  .texto p {
+    font-size: 13px;
+  }
+  button {
+    font-size: 8px;
+    padding: 10px 15px;
+    margin-top: -10px;
+  }
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  .card .card h2 {
+    font-size: 19px;
+    width: 100px;
+  }
+  .card .card p {
+    font-size: 16px;
+    width: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

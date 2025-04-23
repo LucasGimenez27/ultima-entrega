@@ -1,0 +1,11 @@
+header {
+  background-color: rgba(255, 255, 255, 0.91);
+  color: #373838;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

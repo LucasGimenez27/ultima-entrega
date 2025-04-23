@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galpones</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        a{ text-decoration: none;} 
+    </style>
+</head>
+<body id="pagina-3">
+    <header> <!-- Navbar responsive -->
+        <div class="navbar">
+            <div class="logo">Metal Design</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/galpones.html">Galpones</a></li>
+                <li><a href="../pages/trabajos.html">Trabajos</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/botoncontacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+        <main>
+            <section id="galpones-card">  <!-- cartas -->
+                <div class="card">
+                    <img src="../assets/img/galpones agro.jpg" alt="">
+                    <h2>Galpones Agro</h2>
+                    <a href="../pages/botoncontacto.html"><button id="button.pag3">SOLICITAR PRESUPUESTO</button></a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/cancha de futbol.jpg" alt="">
+                    <h2>Canchas de futbol</h2>
+                    <a href="../pages/botoncontacto.html"><button id="button.pag3">SOLICITAR PRESUPUESTO</button></a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/polideportivos.jpg" alt="">
+                    <h2>Polideportivo</h2>
+                    <a href="../pages/botoncontacto.html"><button id="button.pag3">SOLICITAR PRESUPUESTO</button></a>  
+                </div>
+            </section>
+            <section id="galpones-card">  <!-- cartas -->
+                <div class="card">
+                    <img src="../assets/img/galpones standard.jpg" alt="">
+                    <h2>Galpon Standard</h2>
+                    <a href="../pages/botoncontacto.html"><button id="button.pag3">SOLICITAR PRESUPUESTO</button></a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/venta de insumos.jpg" alt="">
+                    <h2>Venta de insumos</h2>
+                    <a href="../pages/botoncontacto.html"><button id="button.pag3">SOLICITAR PRESUPUESTO</button></a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/tinglados.jpg" alt="">
+                    <h2>tinglados</h2>
+                    <a href="../pages/botoncontacto.html"><button id="button.pag3">SOLICITAR PRESUPUESTO</button></a>
+                </div>
+            </section>
+        </main>
+        <script>
+            function toggleMenu() {
+                const navLinks = document.getElementById('navLinks');
+                navLinks.classList.toggle('active');
+            }
+        </script>
+</body>
+</html>
+

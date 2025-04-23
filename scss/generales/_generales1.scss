@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 35%;
+}
+
+.lista {
+  li {
+    a {
+      color: #373838;
+      font-size: 150%;
+    }
+  }
+}
+
+#pagina-2 {
+  background-color: rgba(254, 156, 37, 0.849);
+}

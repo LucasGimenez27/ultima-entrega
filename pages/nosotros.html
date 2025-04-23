@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        a{ text-decoration: none;} 
+    </style>
+</head>
+<body id="pagina-2">
+    <header> <!-- Navbar responsive -->
+        <div class="navbar">
+            <div class="logo">Metal Design</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/galpones.html">Galpones</a></li>
+                <li><a href="../pages/trabajos.html">Trabajos</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/botoncontacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+    <h1 class="titulo">Sobre Nosotros</h1>
+    <p class="datos">Metal Desing es una empresa familiar con una sólida trayectoria de 10 años en el mercado uruguayo, establecida en la ciudad de Montevideo. A lo largo de esta década, hemos consolidado nuestra presencia en todo el país, atendiendo a más de 100 clientes de diversas industrias, lo que nos ha permitido convertirnos en un referente en el sector de la fabricación de estructuras metálicas.
+
+    <p class="datos">Nos especializamos en el diseño y fabricación de galpones metálicos adaptados a una amplia variedad de usos. Nuestros productos están orientados a satisfacer las necesidades específicas de nuestros clientes, ofreciendo soluciones innovadoras y a medida en áreas como el almacenamiento, la protección de bienes y la ejecución de proyectos constructivos en general. Entre nuestras principales aplicaciones se incluyen la construcción de techos para canchas de Fútbol 5, polideportivos, instalaciones agroindustriales, galpones logísticos y naves para uso comercial, entre otras.</p>
+        
+    <p class="datos">En Metal Desing, nos comprometemos a ofrecer soluciones de alta calidad, utilizando únicamente materiales de primera categoría que garantizan la durabilidad y resistencia de nuestras estructuras. Además, contamos con un equipo altamente calificado que trabaja de manera integral con cada cliente, asegurando que sus expectativas sean superadas a través de un servicio de atención al cliente personalizado y de primer nivel.</p>
+        
+    <p class="datos">   La confianza depositada por nuestros clientes a lo largo de los años ha sido el motor de nuestro crecimiento y nos impulsa a seguir innovando y mejorando continuamente para ofrecer productos que cumplan con los más altos estándares del mercado.</p>
+    <section>
+        <a href="../pages/botoncontacto.html"><button id="button-pag2">Trabajemos Juntos!</button></a>
+    </section>
+</main>
+<script>
+    function toggleMenu() {
+        const navLinks = document.getElementById('navLinks');
+        navLinks.classList.toggle('active');
+    }
+</script>
+</body>
+</html>

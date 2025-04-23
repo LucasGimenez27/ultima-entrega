@@ -1,0 +1,62 @@
+/* Estilos para la navbar responsive */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 15px 20px;
+  color: white;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+
+.encabezado {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    color: #373838;
+  }
+}
+
+#barra-nav {
+  background-color: #373838;
+
+  div {
+    h1 {
+      color: rgba(252, 139, 2, 0.91);
+    }
+
+    a {
+      color: rgba(254, 156, 37, 0.91);
+    }
+  }
+}

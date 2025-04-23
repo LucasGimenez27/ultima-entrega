@@ -1,0 +1,24 @@
+button {
+  padding: 12px 18px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  background: #ff6600;
+  color: white;
+  margin-top: 10px;
+  background-color: rgb(255, 157, 0);
+
+  &:hover {
+    background: #cc5500;
+    box-shadow: 0 0 10px rgb(200, 198, 198);
+    cursor: pointer;
+  }
+}
+
+#button-pag2 {
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 45px;
+  border-radius: 5px;
+}
